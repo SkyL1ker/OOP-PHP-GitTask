@@ -1,0 +1,70 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0px 10px;
+    margin: 10px 0px 10px;
+    border: none;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+
+input[type="number"] {
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tree {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.node {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.arrow {
+    border-left: 1px solid #aaa;
+    height: 30px;
+    margin: 0 15px;
+}
